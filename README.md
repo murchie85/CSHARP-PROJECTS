@@ -33,7 +33,7 @@ VS Code is Open Source but bigger
 # .NET FUNDAMENTALS
   
 For Developers to build applications. Originally optimised for windows.
-** .NET IS core to windows operating system ** and installed on over one billion computers, this is why it must change as little as possible. So bugfixes and updates are infrequent. 
+.NET **is core to windows operating system** and installed on over one billion computers, this is why it must change as little as possible. So bugfixes and updates are infrequent. 
 
 ## Good Practice
 
