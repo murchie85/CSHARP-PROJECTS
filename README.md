@@ -32,12 +32,12 @@ VS Code is Open Source but bigger
 
 # .NET FUNDAMENTALS
   
-For Developers to build applications. Originally optimised for windows.
+For Developers to build applications. Originally optimised for windows.  
 .NET **is core to windows operating system** and installed on over one billion computers, this is why it must change as little as possible. So bugfixes and updates are infrequent. 
 
 ## Good Practice
 
-** Practically speaking, .NET Framework is Windows-only and a legacy platform. Do not create new apps using it **  
+Practically speaking, .NET Framework is Windows-only and a legacy platform. **Do not create new apps using it**  
 
 
 ### Three main .NET framworks 
