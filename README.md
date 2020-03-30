@@ -32,12 +32,21 @@ VS Code is Open Source but bigger
 
 # .NET FUNDAMENTALS
   
-For Developers to build applications.
-  
-Three main .NET framworks 
+For Developers to build applications. Originally optimised for windows.
+** .NET IS core to windows operating system ** and installed on over one billion computers, this is why it must change as little as possible. So bugfixes and updates are infrequent. 
+
+## Good Practice
+
+** Practically speaking, .NET Framework is Windows-only and a legacy platform. Do not create new apps using it **  
+
+
+### Three main .NET framworks 
   
 - .NET Core
 - .NET Framework
 - .NET Standard 
   
+Includes : 
 
+1. Common Language Runtime (CLR), manages code execution
+2. Base Class Library (BCL)
