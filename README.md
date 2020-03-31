@@ -1,6 +1,9 @@
-# C# BASICS
+# C# & .NET BASICS
 
 
+- [SETUP](#SETUP)
+- [KEY SHORTCUTS](#KEYS)
+- [.NET FUNDAMENTALS](#.NET-FUNDAMENTALS)
 
 # SETUP  
   
@@ -50,3 +53,14 @@ Includes :
 
 1. Common Language Runtime (CLR), manages code execution
 2. Base Class Library (BCL)
+
+
+- Mono and Xamarin projects are community/open source Xamarin bought over. 
+
+## .NET core 
+
+.NET Core includes a cross-platform implementation of the CLR known as CoreCLR and a streamlined library of classes known as CoreFX.  
+Fast moving, lots of changes; 'does not affect application stability' as it can be deployed side by side with an App.  
+
+
+## Future of .NET
