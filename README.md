@@ -1,5 +1,6 @@
 # C# & .NET BASICS
 
+![C# IMAGE](https://static.gunnarpeipman.com/wp-content/uploads/2009/10/csharp-featured.png)
 
 1. [SETUP](#SETUP)
 2. [VS CODE](#VS-CODE)
