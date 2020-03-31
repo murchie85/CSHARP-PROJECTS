@@ -1,9 +1,9 @@
 # C# & .NET BASICS
 
 
-- [SETUP](#SETUP)
-- [KEY SHORTCUTS](#KEYS)
-- [.NET FUNDAMENTALS](#.NET-FUNDAMENTALS)
+1. [SETUP](#SETUP)
+2. [KEY SHORTCUTS](#KEYS)
+3. [.NET FUNDAMENTALS](#.NET-FUNDAMENTALS)
 
 # SETUP  
   
@@ -11,7 +11,8 @@
 - Download .NET	Core SDK [SDK](https://www.microsoft.com/net/download)
 - Install c# package --> view --> extensions
 - Install C# XML Documentation, C# Extensions, REST Client, ILSpy .NET Decompiler and SharpPad
-- 
+  
+
 # NOTES 
 **UWP APPS** Universal Windows Platfrom 
   
