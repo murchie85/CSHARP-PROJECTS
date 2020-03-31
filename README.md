@@ -2,8 +2,9 @@
 
 
 1. [SETUP](#SETUP)
-2. [KEY SHORTCUTS](#KEYS)
-3. [.NET FUNDAMENTALS](#.NET-FUNDAMENTALS)
+2. [VS CODE](#VS-CODE)
+3. [KEY SHORTCUTS](#KEYS)
+4. [.NET FUNDAMENTALS](#.NET-FUNDAMENTALS)
 
 # SETUP  
   
@@ -12,14 +13,26 @@
 - Install c# package --> view --> extensions
 - Install C# XML Documentation, C# Extensions, REST Client, ILSpy .NET Decompiler and SharpPad
   
+# LINKS & NOTES 
 
-# NOTES 
-**UWP APPS** Universal Windows Platfrom 
-  
+[Practice online at ](https://dotnetfiddle.net/ )   
+[FAQ](https://github.com/dotnet/standard/blob/master/docs/faq.md)   
+[NET Core Command-Line Interface (CLI) tool](https://aka.ms/dotnet-cli-docs)  
+
+**UWP APPS** Universal Windows Platfrom   
 XCODE required to run on MAC.
+
+## VS CODE 
   
 VS is Windows and slower
-VS Code is Open Source but bigger 
+VS Code is Open Source but bigger   
+
+**Tips**   
+
+In VS Code type ctl & backtick to open command pallet.  
+Go to Definition: F12   
+`
+Good Practice: When you try to use Go To Definition you will sometimes see an error saying, No definition found. This is because the C# extension does not know about the current project. Navigate to View | Command Palette, enter and select OmniSharp: Select Project, and then select the correct project that you want to work with.`  
 
 ## KEYS  
 
@@ -32,7 +45,43 @@ VS Code is Open Source but bigger
 - [Linux:](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 
+## EXECUTING FROM TERMINAL
   
+In terminal run the following:  
+
+### Generate Console Application components  
+
+`dotnet new console`  
+  
+### Compile & Run  
+
+`dotnet run`
+  
+### Documentation  
+
+`dotnet help new`
+  
+or get help for command line argument 
+  
+`dotnet new console -h`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # .NET FUNDAMENTALS
   
@@ -81,7 +130,11 @@ By the end of 2020, Microsoft promises that there will be a single .NET platform
 ```
 
 ## .NET STANDARD 
-  
+
+. NET Standard solves the code sharing problem for . NET developers across all platforms by bringing all the APIs that you expect and love across the environments that you need: desktop applications, mobile apps & games, and cloud services.  
+
+. NET Standard is a formal specification of . NET APIs that are intended to be available on all . NET implementations.  
+
 To use the .NET Standard, you must install a .NET platform that implements the .NET Standard specification. .NET Standard 2.0 is implemented by the latest versions of .NET Framework, .NET Core, and Xamarin.
   
 The latest .NET Standard, 2.1, is only implemented by .NET Core 3.0, Mono, and Xamarin. Some features of C# 8.0 require .NET Standard 2.1. .NET Standard 2.1 is not implemented by .NET Framework 4.8 so we should treat .NET Framework as legacy.

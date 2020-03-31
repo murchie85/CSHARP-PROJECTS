@@ -1,0 +1,12 @@
+/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/bin/Debug/netcoreapp3.1/HelloCS.deps.json
+/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/bin/Debug/netcoreapp3.1/HelloCS.runtimeconfig.json
+/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/bin/Debug/netcoreapp3.1/HelloCS.runtimeconfig.dev.json
+/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/bin/Debug/netcoreapp3.1/HelloCS.dll
+/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/bin/Debug/netcoreapp3.1/HelloCS.pdb
+/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/obj/Debug/netcoreapp3.1/HelloCS.csprojAssemblyReference.cache
+/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/obj/Debug/netcoreapp3.1/HelloCS.csproj.CoreCompileInputs.cache
+/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/obj/Debug/netcoreapp3.1/HelloCS.AssemblyInfoInputs.cache
+/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/obj/Debug/netcoreapp3.1/HelloCS.AssemblyInfo.cs
+/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/obj/Debug/netcoreapp3.1/HelloCS.dll
+/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/obj/Debug/netcoreapp3.1/HelloCS.pdb
+/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/obj/Debug/netcoreapp3.1/HelloCS.genruntimeconfig.cache
