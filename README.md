@@ -5,7 +5,8 @@
 1. [SETUP](#SETUP)
 2. [VS CODE](#VS-CODE)
 3. [KEYS CONVENTION & SYNTAX](#KEYS-CONVENTION-&-SYNTAX)
-4. [.NET FUNDAMENTALS](#.NET-FUNDAMENTALS)
+4. [TERMINAL COMMANDS](#TERMINAL-COMMANDS)
+5. [.NET FUNDAMENTALS](#.NET-FUNDAMENTALS)
 
 # SETUP  
   
@@ -61,7 +62,7 @@ use the `@` symbol before the string.
   
 A literal string prefixed with $ to enable embedded formatted variables. You will learn more about this later in this chapter.
 
-## NUMBERS 
+### NUMBERS 
 
 ```
 // unsigned integer means positive whole number
@@ -87,6 +88,21 @@ float realNumber = 2.3F;
 double anotherRealNumber = 2.3; // double literal
 ```
 
+### BINARY & HEX
+
+Start a number with `0b` for binary and `0x` for hex.
+  
+
+```
+// three variables that store the number 2 million
+
+int decimalNotation = 2_000_000;
+
+int binaryNotation = 0b_0001_1110_1000_0100_1000_0000;
+
+int hexadecimalNotation = 0x_001E_8480;
+```
+
 
 ### PDF LINKS 
 
@@ -95,7 +111,7 @@ double anotherRealNumber = 2.3; // double literal
 - [Linux:](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 
-## EXECUTING FROM TERMINAL
+## TERMINAL COMMANDS
   
 In terminal run the following:  
 
