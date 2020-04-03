@@ -4,11 +4,13 @@
 
 1. [SETUP](#SETUP)
 2. [VS CODE](#VS-CODE)
-3. [KEYS CONVENTION & SYNTAX](#KEYS-CONVENTION-&-SYNTAX)
+3. [KEYS CONVENTION AND SYNTAX](#KEYS-CONVENTION-AND-SYNTAX)
 4. [TERMINAL COMMANDS](#TERMINAL-COMMANDS)
 5. [.NET FUNDAMENTALS](#.NET-FUNDAMENTALS)
 
 # SETUP  
+
+![summary](image/summary.png)
   
 - Install VSCode or VS 
 - Download .NET	Core SDK [SDK](https://www.microsoft.com/net/download)
@@ -36,7 +38,7 @@ Go to Definition: F12
 `
 Good Practice: When you try to use Go To Definition you will sometimes see an error saying, No definition found. This is because the C# extension does not know about the current project. Navigate to View | Command Palette, enter and select OmniSharp: Select Project, and then select the correct project that you want to work with.`  
 
-## KEYS CONVENTION & SYNTAX
+## KEYS CONVENTION AND SYNTAX
 
 ![KEY SHORTCUTS](image/keys.png)  
   
@@ -91,7 +93,7 @@ double anotherRealNumber = 2.3; // double literal
 ### BINARY & HEX
 
 Start a number with `0b` for binary and `0x` for hex.
-  
+
 
 ```
 // three variables that store the number 2 million
@@ -102,6 +104,24 @@ int binaryNotation = 0b_0001_1110_1000_0100_1000_0000;
 
 int hexadecimalNotation = 0x_001E_8480;
 ```
+  
+Boolean compare 
+  
+```
+Console.WriteLine($"{decimalNotation == binaryNotation}");
+```
+
+## USEFUL METHODS
+
+**SIZE OFF** 
+  
+Run in console   
+`Console.WriteLine($"int uses {sizeof(int)} bytes and can store numbers in the range {int.MinValue:N0} to {int.MaxValue:N0}.");`  
+  
+`Console.WriteLine($"double uses {sizeof(double)} bytes and can store numbers in the range {double.MinValue:N0} to {double.MaxValue:N0}.");`  
+  
+  
+*NOTE A DOUBLE CAN STORE BIGGER NUMBERS THAN A DECIMAL BUT MAY NOT BE ACCURATE BECAUSE SOME NUMBERS CAN NOT BE REPRESENTED AS A FLOATING POINT VALUE*  
 
 
 ### PDF LINKS 
