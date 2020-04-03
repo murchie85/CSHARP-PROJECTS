@@ -1,9 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sandpit", "sandpit\sandpit.csproj", "{570ED5BB-66A3-4C8F-870B-1017FC6F375D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "getUserInput", "getUserInput\getUserInput.csproj", "{2B820ACC-0D37-486A-81C0-840E572F0F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basicDesicionFlow", "basicDesicionFlow\basicDesicionFlow.csproj", "{7DA62192-BB23-45F2-9E1D-2C09055F0D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "starter", "starter\starter.csproj", "{570ED5BB-66A3-4C8F-870B-1017FC6F375D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +13,17 @@ Global
 		Release|anycpu = Release|anycpu
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{570ED5BB-66A3-4C8F-870B-1017FC6F375D}.Debug|anycpu.ActiveCfg = Debug|anycpu
-		{570ED5BB-66A3-4C8F-870B-1017FC6F375D}.Debug|anycpu.Build.0 = Debug|anycpu
-		{570ED5BB-66A3-4C8F-870B-1017FC6F375D}.Release|anycpu.ActiveCfg = Release|anycpu
-		{570ED5BB-66A3-4C8F-870B-1017FC6F375D}.Release|anycpu.Build.0 = Release|anycpu
 		{2B820ACC-0D37-486A-81C0-840E572F0F86}.Debug|anycpu.ActiveCfg = Debug|Any CPU
 		{2B820ACC-0D37-486A-81C0-840E572F0F86}.Debug|anycpu.Build.0 = Debug|Any CPU
 		{2B820ACC-0D37-486A-81C0-840E572F0F86}.Release|anycpu.ActiveCfg = Release|Any CPU
 		{2B820ACC-0D37-486A-81C0-840E572F0F86}.Release|anycpu.Build.0 = Release|Any CPU
+		{7DA62192-BB23-45F2-9E1D-2C09055F0D82}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{7DA62192-BB23-45F2-9E1D-2C09055F0D82}.Debug|anycpu.Build.0 = Debug|anycpu
+		{7DA62192-BB23-45F2-9E1D-2C09055F0D82}.Release|anycpu.ActiveCfg = Release|anycpu
+		{7DA62192-BB23-45F2-9E1D-2C09055F0D82}.Release|anycpu.Build.0 = Release|anycpu
+		{570ED5BB-66A3-4C8F-870B-1017FC6F375D}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{570ED5BB-66A3-4C8F-870B-1017FC6F375D}.Debug|anycpu.Build.0 = Debug|anycpu
+		{570ED5BB-66A3-4C8F-870B-1017FC6F375D}.Release|anycpu.ActiveCfg = Release|anycpu
+		{570ED5BB-66A3-4C8F-870B-1017FC6F375D}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal

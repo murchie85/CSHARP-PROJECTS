@@ -1,0 +1,5 @@
+/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/sandpit/bin/Debug/sandpit.exe
+/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/sandpit/bin/Debug/sandpit.pdb
+/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/sandpit/obj/Debug/starter.csproj.CoreCompileInputs.cache
+/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/sandpit/obj/Debug/sandpit.exe
+/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/sandpit/obj/Debug/sandpit.pdb

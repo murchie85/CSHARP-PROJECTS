@@ -258,8 +258,65 @@ switch(variable)
 
 
 ```
-     
-     
+    
+### WHILE STATEMENT 
+  
+```
+int i = 3;
+
+while(i<3)
+{
+	Console.WriteLine(i);
+	i++; 
+}
+
+```
+
+### DO WHILE STATEMENT 
+  
+Same as while, but condition is tested at the end. 
+
+```
+
+int i =1;
+do{
+	Console.WriteLine(i);
+	i++;
+}
+while(i<=3);
+
+```
+
+### FOR LOOP
+  
+More compact format.    
+
+```
+
+for (initialise var; expression; update var)
+{
+	// do this 
+}
+
+for (int i =1; i<=3; i++)
+{
+	Console.WriteLine(i)
+}
+```
+
+
+```
+
+for (int i =1; i<=3; i++)
+{
+	if(i==2)
+	{
+		continue; // will skip i=2 
+	}
+	Console.WriteLine(i);
+}
+
+```
 ## USEFUL METHODS
 
 
