@@ -1,0 +1,5 @@
+/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/MenuMethod/bin/Debug/MenuMethod.exe
+/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/MenuMethod/bin/Debug/MenuMethod.pdb
+/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/MenuMethod/obj/anycpu/Debug/MenuMethod.csproj.CoreCompileInputs.cache
+/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/MenuMethod/obj/anycpu/Debug/MenuMethod.exe
+/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/MenuMethod/obj/anycpu/Debug/MenuMethod.pdb

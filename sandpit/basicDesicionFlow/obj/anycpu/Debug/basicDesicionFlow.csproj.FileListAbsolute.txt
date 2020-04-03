@@ -1,5 +1,0 @@
-/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/basicDesicionFlow/obj/anycpu/Debug/basicDesicionFlow.csproj.CoreCompileInputs.cache
-/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/basicDesicionFlow/bin/Debug/basicDesicionFlow.exe
-/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/basicDesicionFlow/bin/Debug/basicDesicionFlow.pdb
-/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/basicDesicionFlow/obj/anycpu/Debug/basicDesicionFlow.exe
-/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/basicDesicionFlow/obj/anycpu/Debug/basicDesicionFlow.pdb

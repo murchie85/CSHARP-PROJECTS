@@ -1,0 +1,5 @@
+/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/MethodExamples/bin/Debug/MethodExamples.exe
+/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/MethodExamples/bin/Debug/MethodExamples.pdb
+/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/MethodExamples/obj/anycpu/Debug/MethodExamples.csproj.CoreCompileInputs.cache
+/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/MethodExamples/obj/anycpu/Debug/MethodExamples.exe
+/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/sandpit/MethodExamples/obj/anycpu/Debug/MethodExamples.pdb

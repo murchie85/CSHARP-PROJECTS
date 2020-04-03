@@ -5,9 +5,10 @@
 1. [SETUP](#SETUP)
 2. [VS CODE](#VS-CODE)
 3. [KEYS CONVENTION AND SYNTAX](#KEYS-CONVENTION-AND-SYNTAX)
-4. [TERMINAL COMMANDS](#TERMINAL-COMMANDS)
-5. [LINKS](#LINKS)
-6. [.NET FUNDAMENTALS](#.NET-FUNDAMENTALS)
+4. [METHODS](#METHODS)
+5. [TERMINAL COMMANDS](#TERMINAL-COMMANDS)
+6. [LINKS](#LINKS)
+7. [.NET FUNDAMENTALS](#.NET-FUNDAMENTALS)
 
 # SETUP  
 
@@ -317,8 +318,161 @@ for (int i =1; i<=3; i++)
 }
 
 ```
-## USEFUL METHODS
+## METHODS
+   
+  
+A nice way to call programs/blocks of code from within a current program.    
+To write our own custom methods, they need to be outside main method code block but inside the program class.  
+The method can be referred to in multiple parts through the program, but only changed in one place.  
+    
+```
+// return type can be int, string etc. For no return type it must be void  
 
+returntype name(parameters)
+{
+	do this
+}
+
+```
+
+
+```
+
+static void Main(string[] args)
+{
+	Console.WriteLine('You are doing well!');
+	printCongrats();
+}
+static void printCongrats()
+{
+	Console.WriteLine('Congratulations')
+}
+
+
+```
+
+### RETURN DATA IN STRING   
+  
+```
+static void Main(string[] args)
+{
+
+	Console.WriteLine("You are doing so well!");
+	Console.WriteLine(returnCongrats());
+}
+static string returnCongrats()
+{
+	return "Congratulations!"
+}
+
+```
+  
+
+```
+static void Main(string[] args)
+{
+
+	int result;
+
+	result = NumberSquared(4)
+	Console.WriteLine("The number squred is");
+	Console.WriteLine(result);
+}
+static int NumberSquared(int x)
+{
+	return x * x;
+}
+
+```
+
+### OPTIONAL PARAMETERS 
+  
+by making a parameter `int power =2` we have assigned it, so its optional.  
+Optional parms must come at the end . 
+  
+```
+
+static void Main(string[] args)
+{
+	Console.WriteLine(RaiseToPower(2));  // 2^2 = 4
+	Console.WriteLine(RaiseToPower(2,3)) // 2^3 = 8 
+}
+
+static int RaiseToPower(int baseNumber, int power =2)
+{
+	int result =1;
+
+	for (int i =1; i<= power; i++)
+	{
+		result *= basenumber;
+	}
+
+	return result;
+}
+
+
+``` 
+  
+### REFERENCE VARIABLE (Pointers?)
+  
+If you pass a variable into a method and change that variable within the method, only the method var changes. 
+
+
+```
+
+static void Main(string[] args)
+{
+	int x = 5;
+
+	ChangeNumber(x)
+
+	Console.WriteLine(x); // output remains 5
+}
+
+static int ChangeNumber(int y)
+{
+	y = 0;
+}
+
+
+``` 
+  
+To change the variable outside you need to use ref prior to the number    
+This way allows you to return multiple values from a method. 
+Because there is only one return, you can return multiple values by using multiple `ref parameters` 
+If you dont want to initialise the variable, use the `out` term instead of `ref`  
+  
+  
+```
+
+static void Main(string[] args)
+{
+	int x = 5;
+
+	ChangeNumber(ref x)
+
+	Console.WriteLine(x); // output remains 5
+}
+
+static int ChangeNumber(ref int y)
+{
+	y = 0;
+}
+
+
+``` 
+
+
+### METHOD OVERLOADING 
+  
+Declaring more than one method with `the same name` inside `the same scope`. The requirement is that they can't have `the same name and combination of parameters`    
+The compiler knowns which one to call based on the arguments you pass in.   
+`Console.WriteLine()` is actually a bunch of overloaded methods, i.e. write method for an int, a write method for a string and so on. All the same name.      
+
+![OVERLOADING](image/overloading.png)
+
+
+### USEFUL METHODS
 
 **Console.ReadKey()**     
 
@@ -339,6 +493,8 @@ Console.WriteLine("You entered: " + userInput);
 **Console.ReadLine()**
   
 Same as above, but use `string` instead of `char` and `ReadLine()` method. 
+
+**Console.WriteLine()** 
 
 
 **SIZE OFF**   

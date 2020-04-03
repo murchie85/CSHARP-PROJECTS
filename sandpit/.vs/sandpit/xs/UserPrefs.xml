@@ -1,16 +1,18 @@
-﻿<Properties StartupConfiguration="{2B820ACC-0D37-486A-81C0-840E572F0F86}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="basicDesicionFlow/Program.cs">
+﻿<Properties StartupConfiguration="{947EE8D6-D6BA-4340-93BF-E7F302C58502}|Default">
+  <MonoDevelop.Ide.ItemProperties.MenuMethod PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MethodExamples/Program.cs">
     <Files>
-      <File FileName="getUserInput/Program.cs" Line="21" Column="20" />
-      <File FileName="basicDesicionFlow/Program.cs" Line="1" Column="1" />
+      <File FileName="MenuMethod/Program.cs" Line="147" Column="8" />
+      <File FileName="MethodExamples/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="sandpit" expanded="True">
-            <Node name="basicDesicionFlow" expanded="True" />
-            <Node name="getUserInput" expanded="True" />
-            <Node name="starter" selected="True" />
+            <Node name="MenuMethod" expanded="True" />
+            <Node name="MethodExamples" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -18,10 +20,9 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
-  <MonoDevelop.Ide.ItemProperties.getUserInput PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.basicDesicionFlow FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.MethodExamples FirstBuild="True" />
 </Properties>
