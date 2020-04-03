@@ -21,11 +21,11 @@
   
 - IB ‘Risk, Finance and Treasury’    
 - Code review     
-- C#, .NET Framework & .NET Core, Visual Studios 2019, XML,XSLT  
+- C#, .NET Framework & .NET Core, Visual Studios 2019, XML,XSLT  [link1](https://hackr.io/blog/c-sharp-interview-questions) , [link2](https://www.guru99.com/c-sharp-interview-questions.html), [link3](https://en.wikipedia.org/wiki/ASP.NET)
 - Multi-threaded server side development  
 - Microservice / Service oriented architecture  
 - Unit and integration testing  
-- SOLID design principles   
+- [SOLID](https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design) design principles
 - Team City  
 - SQL Server , PostgreSQL, Middleware (MQ, Solace), ASP.Net MVC, Elasticsearch, AWS  
 - Test Coverage   
