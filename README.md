@@ -44,11 +44,15 @@ XCODE required to run on MAC.
   
 VS is Windows and slower
 VS Code is Open Source but bigger   
+  
+VS Code creates a bunch of utilities such as `references` existing libraries. `program.cs` the c# you can write your code. `App.config` includes version info.  
+
 
 - Desktop Windows App : select WPF App .NET framework (Windows forms is old way)  
 - Web App : select ASP.NET   
 - Text only: Console App  
-  
+ 
+
 
 **Tips**   
 
@@ -67,19 +71,29 @@ Good Practice: When you try to use Go To Definition you will sometimes see an er
 | Title case |    String, Int32, Cost, DateOfBirth, Run  |   Types, non-private fields, and other members like methods.|
 
 
-## Escape Characters
+## Variables 
+  
 
-### Space  
+### Assigning Null   
+  
+To assign null, you need to add question mark or it will fail to compile.   
+  
+`int? eggs = null;`  
+  
+
+### Escape Characters
+
+#### Space  
 
 `string fullNameWithTabSeparator = "Bob\tSmith";`  becomes `Bob Smith`
 
-## Verbatim String (Ignore Escape char)
+#### Verbatim String (Ignore Escape char)
   
 use the `@` symbol before the string.  
 
 `string filePath = @"C:\televisions\sony\bravia.txt";`
 
-### Interpolated string 
+#### Interpolated string 
   
 A literal string prefixed with $ to enable embedded formatted variables. You will learn more about this later in this chapter.
 
@@ -124,15 +138,86 @@ int binaryNotation = 0b_0001_1110_1000_0100_1000_0000;
 int hexadecimalNotation = 0x_001E_8480;
 ```
   
-Boolean compare 
+**Boolean compare**  
   
 ```
 Console.WriteLine($"{decimalNotation == binaryNotation}");
 ```
+  
+### Operands 
+ 
+#### INT VS DOUBLE   
+
+``` 
+int x =1;
+int y =1;
+int sum;
+
+sum = x + y; // evaluates to 2
+```
+
+```
+
+double double1 = 5.0/2.0; Evaluates to 2.5
+double double2 = 5 / 2; Evaluates to 2
+
+```
+
+#### MODULUS 
+
+`%`
+
+#### INCREMENT AND DECREMENT 
+
+```
+int y =1; 
+int x = ++y; // y is incremented to 2, x is set to 2. So X =2 and Y =2 
+  
+int y =1; 
+int x = y++; // x is set to 1, y is incremented to 2. So X = 1 and Y = 2
+```
+
+### Datatype conversion 
+**IMPLICIT vs EXPLICIT**  
+```
+int myinteger = 765;
+double mydouble = 7.2; 
+
+mydouble=myinteger; //Implicit (765.0)
+myInteger= (int)mydouble; //Explicit and if was 7.0 you would drop the 0 maybe.
+```  
+   
+### Convert string to int
+string mystring = "5";
+myInteger = Convert.ToInt32(mystring);
+   
+
 
 ## USEFUL METHODS
 
-**SIZE OFF** 
+
+**Console.ReadKey()**     
+
+`Console.ReadKey()`
+  
+Read in single character from user.   
+
+```
+char userinput; // only one key allowed
+Console.Write("Enter a character: ");
+userInput = Console.ReadKey().KeyChar;
+
+Console.WriteLine();
+Console.WriteLine("You entered: " + userInput);
+```
+  
+  
+**Console.ReadLine()**
+  
+Same as above, but use `string` instead of `char` and `ReadLine()` method. 
+
+
+**SIZE OFF**   
   
 Run in console   
 `Console.WriteLine($"int uses {sizeof(int)} bytes and can store numbers in the range {int.MinValue:N0} to {int.MaxValue:N0}.");`  
