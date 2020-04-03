@@ -17,6 +17,20 @@
 - Install c# package --> view --> extensions
 - Install C# XML Documentation, C# Extensions, REST Client, ILSpy .NET Decompiler and SharpPad
   
+## C# Role Requirements
+  
+- IB ‘Risk, Finance and Treasury’    
+- Code review     
+- C#, .NET Framework & .NET Core, Visual Studios 2019, XML,XSLT  
+- Multi-threaded server side development  
+- Microservice / Service oriented architecture  
+- Unit and integration testing  
+- SOLID design principles   
+- Team City  
+- SQL Server , PostgreSQL, Middleware (MQ, Solace), ASP.Net MVC, Elasticsearch, AWS  
+- Test Coverage   
+- Distributed Systems Dataynase, NServiceBus. Messaging - Solace, RabbitMQ, Kafka  
+   
 ## LINKS & NOTES 
 
 [Practice online at ](https://dotnetfiddle.net/ )   
@@ -30,6 +44,11 @@ XCODE required to run on MAC.
   
 VS is Windows and slower
 VS Code is Open Source but bigger   
+
+- Desktop Windows App : select WPF App .NET framework (Windows forms is old way)  
+- Web App : select ASP.NET   
+- Text only: Console App  
+  
 
 **Tips**   
 
