@@ -219,6 +219,7 @@ answer = (true && true)
 
 Always use block statements in loop.   
  	
+### IF STATEMENT 
 ```
 int age = 20;
 
@@ -226,13 +227,39 @@ if (age>=18)
 {
 	Console.WriteLine("You are old enough to vote");
 }
+else if (Age>=21)
+{
+	Console.WriteLine("You are old enough to buy alcohol")
+}
 else
 {
 	Console.WriteLine("You are not allowed to vote");
 }
 ```
-
   
+### SWITCH STATEMENT 
+
+```
+
+switch(variable)
+{
+	case value:
+		// do this 
+		break;
+	case value:
+		// do this 
+		break;
+	default:
+		// do this 
+		break;
+}
+
+
+
+
+```
+     
+     
 ## USEFUL METHODS
 
 
