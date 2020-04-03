@@ -6,7 +6,8 @@
 2. [VS CODE](#VS-CODE)
 3. [KEYS CONVENTION AND SYNTAX](#KEYS-CONVENTION-AND-SYNTAX)
 4. [TERMINAL COMMANDS](#TERMINAL-COMMANDS)
-5. [.NET FUNDAMENTALS](#.NET-FUNDAMENTALS)
+5. [LINKS](#LINKS)
+6. [.NET FUNDAMENTALS](#.NET-FUNDAMENTALS)
 
 # SETUP  
 
@@ -72,6 +73,9 @@ Good Practice: When you try to use Go To Definition you will sometimes see an er
 
 
 ## Variables 
+  
+- Variabels declared inside a block stay there:: but variables amended inside and global will be amended outside 
+- Use block brackets for all loops  
   
 
 ### Assigning Null   
@@ -193,6 +197,42 @@ myInteger = Convert.ToInt32(mystring);
    
 
 
+
+## FLOW CONTROL
+
+### BOOL 
+  
+`bool answer; // true or false`
+  
+
+```
+// all evaluates to true 
+answer = (1 == 1);
+answer = (1 != 2); 
+answer = !(false);  
+
+answer = (true && true)
+
+```
+
+### DECISION STATEMENTS  
+
+Always use block statements in loop.   
+ 	
+```
+int age = 20;
+
+if (age>=18)
+{
+	Console.WriteLine("You are old enough to vote");
+}
+else
+{
+	Console.WriteLine("You are not allowed to vote");
+}
+```
+
+  
 ## USEFUL METHODS
 
 
@@ -227,12 +267,8 @@ Run in console
   
 *NOTE A DOUBLE CAN STORE BIGGER NUMBERS THAN A DECIMAL BUT MAY NOT BE ACCURATE BECAUSE SOME NUMBERS CAN NOT BE REPRESENTED AS A FLOATING POINT VALUE*  
 
+  
 
-### PDF LINKS 
-
-- [Windows:](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
-- [macOS:](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
-- [Linux:](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 
 ## TERMINAL COMMANDS
@@ -256,6 +292,15 @@ or get help for command line argument
 `dotnet new console -h`
 
 
+
+
+
+
+### PDF LINKS 
+
+- [Windows:](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+- [macOS:](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+- [Linux:](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 
 
