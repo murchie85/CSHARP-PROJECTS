@@ -4,7 +4,7 @@
 
 1. [SETUP](#SETUP)
 2. [VS CODE](#VS-CODE)
-3. [KEY SHORTCUTS](#KEYS)
+3. [KEYS CONVENTION & SYNTAX](#KEYS-CONVENTION-&-SYNTAX)
 4. [.NET FUNDAMENTALS](#.NET-FUNDAMENTALS)
 
 # SETUP  
@@ -35,7 +35,7 @@ Go to Definition: F12
 `
 Good Practice: When you try to use Go To Definition you will sometimes see an error saying, No definition found. This is because the C# extension does not know about the current project. Navigate to View | Command Palette, enter and select OmniSharp: Select Project, and then select the correct project that you want to work with.`  
 
-## KEYS & CONVENTION 
+## KEYS CONVENTION & SYNTAX
 
 ![KEY SHORTCUTS](image/keys.png)  
   
@@ -43,6 +43,50 @@ Good Practice: When you try to use Go To Definition you will sometimes see an er
 |----------|:-------------:|------:|
 | Camel case |  cost, orderDetail, dateOfBirth | Local variables, private fields. |
 | Title case |    String, Int32, Cost, DateOfBirth, Run  |   Types, non-private fields, and other members like methods.|
+
+
+## Escape Characters
+
+### Space  
+
+`string fullNameWithTabSeparator = "Bob\tSmith";`  becomes `Bob Smith`
+
+## Verbatim String (Ignore Escape char)
+  
+use the `@` symbol before the string.  
+
+`string filePath = @"C:\televisions\sony\bravia.txt";`
+
+### Interpolated string 
+  
+A literal string prefixed with $ to enable embedded formatted variables. You will learn more about this later in this chapter.
+
+## NUMBERS 
+
+```
+// unsigned integer means positive whole number
+
+// including 0
+
+uint naturalNumber = 23;
+
+// integer means negative or positive whole number
+
+// including 0
+
+int integerNumber = -23;
+
+// float means single-precision floating point
+
+// F suffix makes it a float literal
+
+float realNumber = 2.3F;
+
+// double means double-precision floating point
+
+double anotherRealNumber = 2.3; // double literal
+```
+
 
 ### PDF LINKS 
 

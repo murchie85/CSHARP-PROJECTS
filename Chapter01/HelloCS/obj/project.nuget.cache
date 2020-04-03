@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KbOBuiXlep47bfsOPuQ5yDNixWbls3dOodGaBKueRP4DIfH1KXgyB0pelPEMKCVwZNbC5XbnzKMv4Vekzn9B+w==",
+  "dgSpecHash": "FiU5TPBiyM5zhtofsb4QgoTdaiygL4/ezBmmkm+RA6EQb0fdZDThia2DKhn98TuPK5+Sd3ABvRMnYOptYEFLzg==",
   "success": true,
-  "projectFilePath": "/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/HelloCS.csproj",
+  "projectFilePath": "/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/Chapter01/HelloCS/HelloCS.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/HelloCS.csproj": {}
+    "/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/Chapter01/HelloCS/HelloCS.csproj": {}
   },
   "projects": {
-    "/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/HelloCS.csproj": {
+    "/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/Chapter01/HelloCS/HelloCS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/HelloCS.csproj",
+        "projectUniqueName": "/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/Chapter01/HelloCS/HelloCS.csproj",
         "projectName": "HelloCS",
-        "projectPath": "/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/HelloCS.csproj",
+        "projectPath": "/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/Chapter01/HelloCS/HelloCS.csproj",
         "packagesPath": "/Users/adammcmurchie/.nuget/packages/",
-        "outputPath": "/Users/adammcmurchie/projects/c#/oreily/Chapter01/HelloCS/obj/",
+        "outputPath": "/Users/adammcmurchie/projects/learnC#/CSHARP-PROJECTS/Chapter01/HelloCS/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/adammcmurchie/.nuget/NuGet/NuGet.Config"
