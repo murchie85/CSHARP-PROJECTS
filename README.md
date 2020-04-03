@@ -35,9 +35,14 @@ Go to Definition: F12
 `
 Good Practice: When you try to use Go To Definition you will sometimes see an error saying, No definition found. This is because the C# extension does not know about the current project. Navigate to View | Command Palette, enter and select OmniSharp: Select Project, and then select the correct project that you want to work with.`  
 
-## KEYS  
+## KEYS & CONVENTION 
 
-![KEY SHORTCUTS](image/keys.png)
+![KEY SHORTCUTS](image/keys.png)  
+  
+| Naming convention	   |      Examples      |  Use for |
+|----------|:-------------:|------:|
+| Camel case |  cost, orderDetail, dateOfBirth | Local variables, private fields. |
+| Title case |    String, Int32, Cost, DateOfBirth, Run  |   Types, non-private fields, and other members like methods.|
 
 ### PDF LINKS 
 
