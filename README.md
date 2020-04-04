@@ -33,7 +33,71 @@
 - SQL Server , PostgreSQL, Middleware (MQ, Solace), Elasticsearch, AWS  
 - Test Coverage   
 - Distributed Systems Dataynase, NServiceBus. Messaging - Solace, RabbitMQ, Kafka  
-   
+
+## 10 BEST PRACTICES  
+
+### Name things carefully 
+  
+Solution name should be different from project (even although its defaulted that way).   
+Use pascal case (caps for every letter)  
+Name class Libraries with the affix `library` at the end.  
+So when you go to `add reference` in references, you know which one it is.
+
+
+### One class per file   
+**Add** A new class file for each class (don't have 2 or more in teh one file )  
+Delete class1 that is autocreated when making a library.   
+
+### Use Properties Not Public Variables  
+
+Correct way is to declare the var in a class, then in main construct the object of that class and instantiate it like below.
+
+```
+*** person.cs class ***
+// declaring the person class
+public class person
+{
+  public string FirstName {get; set;}
+
+}
+
+*** program.cs class ***
+// referencing the person
+static void Main(string[] args){
+
+	person firstUser = new Person();	// construct
+	firstUser.FirstName = "Tim";        // Instantiate
+}
+
+```
+
+**WRONG** WAY 
+
+```
+*** person.cs class ***
+// declaring the person class
+public class person
+{
+  public string FirstName {get; set;}
+  public string LastName; // public variable (bad idea)
+
+}
+
+*** program.cs class ***
+// referencing the person
+static void Main(string[] args){
+
+	person firstUser = new Person();	// construct
+	firstUser.FirstName = "Tim";        // Instantiate
+
+	firstUser.LastName = "Corey";      //Still works this way but NOT A GOOD PRACTICE 
+}
+
+```
+
+
+
+
 ## LINKS & NOTES 
 
 [Practice online at ](https://dotnetfiddle.net/ )   
