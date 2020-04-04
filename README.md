@@ -95,6 +95,8 @@ static void Main(string[] args){
 
 ```
 
+### Methods should do One thing! 
+
 
 
 
@@ -125,6 +127,9 @@ VS Code creates a bunch of utilities such as `references` existing libraries. `p
 
 In VS Code type ctl & backtick to open command pallet.  
 Go to Definition: F12   
+Type `prop` to create a method/class definition. 
+  
+
 `
 Good Practice: When you try to use Go To Definition you will sometimes see an error saying, No definition found. This is because the C# extension does not know about the current project. Navigate to View | Command Palette, enter and select OmniSharp: Select Project, and then select the correct project that you want to work with.`  
 
@@ -137,6 +142,13 @@ Good Practice: When you try to use Go To Definition you will sometimes see an er
 | Camel case |  cost, orderDetail, dateOfBirth | Local variables, private fields. |
 | Title case |    String, Int32, Cost, DateOfBirth, Run  |   Types, non-private fields, and other members like methods.|
 
+## Comments
+
+`//` Single line comments.  
+`/* .....*/` Multi-line comments.  
+`///` XML comments, notice in the image below, the popup text includes details from the comments section.   
+
+![comments](image/comments.png)
 
 ## Variables 
   
