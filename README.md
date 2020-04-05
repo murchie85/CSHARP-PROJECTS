@@ -109,13 +109,43 @@ Console.WriteLine($"Hello Mr. { person.LastName }" )
 - Addds variable joined into the string   
 - Var and text all within the same quotes  
   
+### Chose the right methods/practices to optimise run time.  
+  
+
 **StringBuilder** Method is much more efficient.  
   
 ```C#
 private static void StringDemoMethod()
+{
+	string s = "";
+	StringBuilder sb = new StringBuilder();
 
 
-```
+	Console.WriteLine(DateTime.Now.ToLongTimeString()); // start timer
+
+	for (int i = 0; i < 1000000; i++)
+	{
+		//s += "Hi ";
+		sb.Append("Hi "); // This is MUCH more faster. So 100,000 would take a couple of seconds compared to one minute. 
+	}
+
+	Console.WriteLine(DateTime.Now.ToLongTimeString()); // Stop timer
+
+}
+
+
+```  
+  
+### Avoid Using GlobalVariables  
+    
+**Private First** Mindset!  
+- Private vars stay inside their own class.  
+  
+   
+- If you need info to be accessed throughout whole app, use the `app.config` file.  
+- `app.config` doesn't live in memory unlike global varaibles. 
+- This is just in time.  
+- Vars memory can be flushed in a loop when not needed. 
 
 ## LINKS & NOTES 
 
