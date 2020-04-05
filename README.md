@@ -45,14 +45,15 @@ So when you go to `add reference` in references, you know which one it is.
 
 
 ### One class per file   
-**Add** A new class file for each class (don't have 2 or more in teh one file )  
+
+**Add** A new class file for each class (don't have 2 or more in the one file )  
 Delete class1 that is autocreated when making a library.   
 
 ### Use Properties Not Public Variables  
 
 Correct way is to declare the var in a class, then in main construct the object of that class and instantiate it like below.
 
-```
+```C#
 *** person.cs class ***
 // declaring the person class
 public class person
@@ -73,22 +74,17 @@ static void Main(string[] args){
 
 **WRONG** WAY 
 
-```
+```C#
 *** person.cs class ***
 // declaring the person class
 public class person
 {
-  public string FirstName {get; set;}
-  public string LastName; // public variable (bad idea)
-
+  public string FirstName; // public variable (bad idea)
 }
 
 *** program.cs class ***
 // referencing the person
 static void Main(string[] args){
-
-	person firstUser = new Person();	// construct
-	firstUser.FirstName = "Tim";        // Instantiate
 
 	firstUser.LastName = "Corey";      //Still works this way but NOT A GOOD PRACTICE 
 }
@@ -96,9 +92,30 @@ static void Main(string[] args){
 ```
 
 ### Methods should do One thing! 
+  
+Part of SOLID criteria, fits inline with microservices architecture.    
+
+### Use Curly braces for if statements 
+  
+You can't do two lines without curly braces, so if you want to grow and add things you need to block it anyway.  
+
+  
+### Concat Strings with $  
+  
+
+```
+Console.WriteLine($"Hello Mr. { person.LastName }" )
+```  
+- Addds variable joined into the string   
+- Var and text all within the same quotes  
+  
+**StringBuilder** Method is much more efficient.  
+  
+```C#
+private static void StringDemoMethod()
 
 
-
+```
 
 ## LINKS & NOTES 
 
@@ -130,8 +147,8 @@ Go to Definition: F12
 Type `prop` to create a method/class definition. 
   
 
-`
-Good Practice: When you try to use Go To Definition you will sometimes see an error saying, No definition found. This is because the C# extension does not know about the current project. Navigate to View | Command Palette, enter and select OmniSharp: Select Project, and then select the correct project that you want to work with.`  
+
+**Definition**  Good Practice: When you try to use Go To Definition you will sometimes see an error saying, No definition found. This is because the C# extension does not know about the current project. Navigate to View | Command Palette, enter and select OmniSharp: Select Project, and then select the correct project that you want to work with.
 
 ## KEYS CONVENTION AND SYNTAX
 
@@ -298,7 +315,7 @@ answer = (true && true)
 Always use block statements in loop.   
  	
 ### IF STATEMENT 
-```
+```C#
 int age = 20;
 
 if (age>=18)
@@ -317,7 +334,7 @@ else
   
 ### SWITCH STATEMENT 
 
-```
+```C#
 
 switch(variable)
 {
@@ -339,7 +356,7 @@ switch(variable)
     
 ### WHILE STATEMENT 
   
-```
+```C#
 int i = 3;
 
 while(i<3)
@@ -354,7 +371,7 @@ while(i<3)
   
 Same as while, but condition is tested at the end. 
 
-```
+```C#
 
 int i =1;
 do{
@@ -369,7 +386,7 @@ while(i<=3);
   
 More compact format.    
 
-```
+```C#
 
 for (initialise var; expression; update var)
 {
@@ -383,7 +400,7 @@ for (int i =1; i<=3; i++)
 ```
 
 
-```
+```C#
 
 for (int i =1; i<=3; i++)
 {
@@ -402,7 +419,7 @@ A nice way to call programs/blocks of code from within a current program.
 To write our own custom methods, they need to be outside main method code block but inside the program class.  
 The method can be referred to in multiple parts through the program, but only changed in one place.  
     
-```
+```C#
 // return type can be int, string etc. For no return type it must be void  
 
 returntype name(parameters)
@@ -413,7 +430,7 @@ returntype name(parameters)
 ```
 
 
-```
+```C#
 
 static void Main(string[] args)
 {
@@ -430,7 +447,7 @@ static void printCongrats()
 
 ### RETURN DATA IN STRING   
   
-```
+```C#
 static void Main(string[] args)
 {
 
@@ -445,7 +462,7 @@ static string returnCongrats()
 ```
   
 
-```
+```C#
 static void Main(string[] args)
 {
 
@@ -467,7 +484,7 @@ static int NumberSquared(int x)
 by making a parameter `int power =2` we have assigned it, so its optional.  
 Optional parms must come at the end . 
   
-```
+```C#
 
 static void Main(string[] args)
 {
@@ -495,7 +512,7 @@ static int RaiseToPower(int baseNumber, int power =2)
 If you pass a variable into a method and change that variable within the method, only the method var changes. 
 
 
-```
+```C#
 
 static void Main(string[] args)
 {
@@ -520,7 +537,7 @@ Because there is only one return, you can return multiple values by using multip
 If you dont want to initialise the variable, use the `out` term instead of `ref`  
   
 
-```
+```C#
 
 static void Main(string[] args)
 {
@@ -557,7 +574,7 @@ The compiler knowns which one to call based on the arguments you pass in.
   
 Read in single character from user.   
 
-```
+```C#
 char userinput; // only one key allowed
 Console.Write("Enter a character: ");
 userInput = Console.ReadKey().KeyChar;
